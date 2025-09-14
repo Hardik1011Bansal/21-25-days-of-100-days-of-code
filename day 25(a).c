@@ -16,6 +16,11 @@ int main()
     
     for(int i=1;i<=n;i++)
     {
+        int k=i-1;
+        for(int a=0;a<k;a++)
+        {
+            printf(" ");
+        }
         for(int j=i;j<=5;j++)
         {
             printf("%c",'*');
